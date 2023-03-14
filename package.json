@@ -1,6 +1,6 @@
 {
   "name": "@capacitor-community/http",
-  "version": "1.4.1.Cache",
+  "version": "1.4.2",
   "description": "A native HTTP plugin for CORS-free requests and file transfers with static cache support",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
