@@ -159,6 +159,8 @@ class HttpRequestHandler {
         let responseType = call.getString("responseType") ?? "text";
         let connectTimeout = call.getDouble("connectTimeout");
         let readTimeout = call.getDouble("readTimeout");
+        let shouldCache = call.getBool("shouldCache") ?? false;
+        let cachePrefix = call.getString("cachePrefix") ?? "";
 
         let request = try! CapacitorHttpRequestBuilder()
             .setUrl(urlString)

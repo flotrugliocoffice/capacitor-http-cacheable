@@ -65,6 +65,14 @@ export interface HttpOptions {
    * (already encoded, azure/firebase testing, etc.). The default is _true_.
    */
   shouldEncodeUrlParams?: boolean;
+  /**
+   * Should cache results / retrieve if offline
+   */
+  shouldCache?:boolean;
+  /**
+   * Cache prefix key
+   */
+  cachePrefix?:string;
 }
 
 export interface HttpParams {
