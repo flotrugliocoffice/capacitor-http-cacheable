@@ -1,7 +1,7 @@
 {
   "name": "@capacitor-community/http",
-  "version": "1.4.1",
-  "description": "A native HTTP plugin for CORS-free requests and file transfers",
+  "version": "1.4.1.Cache",
+  "description": "A native HTTP plugin for CORS-free requests and file transfers with static cache support",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -16,7 +16,7 @@
     "prepublishOnly": "npm run build && npm run ios:build",
     "prepare": "husky install"
   },
-  "author": "Max Lynch <max@ionic.io>, Thomas Vidas <thomas@ionic.io>",
+  "author": "Francesco Lo Truglio Cofficegroup s.r.l. (Fork) based on Max Lynch <max@ionic.io>, Thomas Vidas <thomas@ionic.io>",
   "license": "MIT",
   "dependencies": {
     "@capacitor/android": "^3.0.0",
