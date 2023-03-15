@@ -1,6 +1,0 @@
-[
-	{
-		"pkg": "@capacitor-community/http",
-		"classpath": "com.getcapacitor.plugin.http.Http"
-	}
-]
